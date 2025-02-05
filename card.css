@@ -1,12 +1,16 @@
 body{
     background-color: rgba(190,189,189);
 }
+
+    
+
 .card{
     width: 310px;
     height: 460px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    
 
 }
 .img-div img{
@@ -18,8 +22,33 @@ body{
 .img-div{
     background-color: rgba(0,119,255);
     height: 170px;
+    border-radius: 10px;
 }
 .card p{
     font-size: 13px;
     color: rgba(119,119,119);
+}
+.card button{
+    width: 180px;
+    height: 40px;
+    background-color: rgba(0,119,255);
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+.icon{
+    font-size: 30px;
+    margin: 20px;
+    
+}
+.icon i{
+    margin-inline: 10px;
+}
+.icon span{
+    color: rgba(0,119,255);
+    
+}
+.icon .insta{
+    color: rgb(191, 11, 95);
 }
